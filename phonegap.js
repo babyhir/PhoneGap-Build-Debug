@@ -652,7 +652,7 @@ PositionOptions = function(enableHighAccuracy, timeout, maximumAge) {
 	 * The timeout after which if position data cannot be obtained the errorCallback
 	 * is called.
 	 */
-	this.timeout = timeout || 10000;
+	this.timeout = timeout || 90000;
 	/**
      * The age of a cached position whose age is no greater than the specified time 
      * in milliseconds. 
